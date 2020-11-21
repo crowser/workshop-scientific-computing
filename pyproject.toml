@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "workshop-scientific-computing"
+version = "0.1.0"
+description = ""
+authors = ["crowser <di94sh@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "*"
+scipy = "*"
+sympy = "*"
+jupyterlab = "*"
+
+[tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = 'aliyun'
+url = 'https://mirrors.aliyun.com/pypi/simple/'
+default = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
